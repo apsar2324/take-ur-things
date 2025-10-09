@@ -147,7 +147,7 @@ function Stats({ items }) {
   const percentage = Math.round((numPacked / numItems) * 100);
   return (
     <footer className="stats">
-      {items.length == 0 ? (
+      {items.length === 0 ? (
         "Hey Add your things✈️"
       ) : (
         <em>
